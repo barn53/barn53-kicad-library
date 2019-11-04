@@ -10,8 +10,10 @@ Define the following path in the KiCad path configuration:
 ## Add the symbol- and the footprint libraries
 
 - Symbol Library
-```${BARN53_KICAD_DIR}/library/barn53-kicad.lib```
+
+    ```${BARN53_KICAD_DIR}/library/barn53-kicad.lib```
 
 - Footprint Library
-```${BARN53_KICAD_DIR}/footprints/barn53-kicad.pretty```
+
+    ```${BARN53_KICAD_DIR}/footprints/barn53-kicad.pretty```
 
