@@ -1,4 +1,4 @@
-(module MicrowaveRadarSensorRCWL-0516 (layer F.Cu) (tedit 5DBEAFF7)
+(module MicrowaveRadarSensorRCWL-0516 (layer F.Cu) (tedit 5DBFD56C)
   (fp_text reference REF** (at 2.45 -4.775) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -39,7 +39,7 @@
   (pad 3 thru_hole circle (at 0 5.1) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 0 7.64) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 0 10.18) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (model "${BARN53_3DMODEL_DIR}/RCWL-0516 v10.step"
+  (model "${BARN53_KICAD_DIR}/3dmodels/RCWL-0516 v10.step"
     (offset (xyz -1.2 3.6 3.9))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

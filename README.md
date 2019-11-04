@@ -1,10 +1,13 @@
-# kicad-library
+# barn53 kicad library
 Contains self-constructed symbols, footprints and models
 
-# KiCad Paths
+# KiCad Path
 
-```BARN53_SYMBOL_DIR  --> <...>/barn53-kicad-library/library/```
+```${BARN53_KICAD_DIR} = <...>/barn53-kicad-library/```
 
-```BARN53_MODEL_DIR    --> <...>/barn53-kicad-library/models/```
+## Symbol Library
+```${BARN53_KICAD_DIR}/library/barn53-kicad.lib```
 
-```BARN53_3DMODEL_DIR  --> <...>/barn53-kicad-library/3dmodels/```
+## Footprint Library
+```${BARN53_KICAD_DIR}/models/barn53-kicad.pretty```
+
