@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADXL345BCCZ-RL7
+D ACCEL 2-16G I2C/SPI 14LGA
+K ADXL345BCCZ-RL7CT-ND
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf
+$ENDCMP
+#
 $CMP ESP-12E
 D 802.11 b/g/n Wi-Fi Module
 K 802.11 Wi-Fi
@@ -16,6 +22,12 @@ $CMP MicrowaveRadarSensorRCWL-0516
 F https://www.epitran.it/ebayDrive/datasheet/19.pdf
 $ENDCMP
 #
+$CMP SIA527DJ-T1-GE3
+D SiA527DJ N- and P-Channel 12-V (D-S) MOSFET Vishay
+K TrenchFET Power MOSFET Vishay
+F https://datasheet.lcsc.com/szlcsc/1806021242_Vishay-Intertech-SIA527DJ-T1-GE3_C222486.pdf
+$ENDCMP
+#
 $CMP USB_B_Micro
 D USB Micro Type B connector
 K connector USB micro
@@ -26,6 +38,16 @@ $CMP USB_B_Mini
 D USB Mini Type B connector
 K connector USB mini
 F ~
+$ENDCMP
+#
+$CMP WS2812D-F5
+D RGB LED WS2812 5mm
+F https://html.alldatasheet.com/html-pdf/1134547/WORLDSEMI/WS2812D-F5-15MA-C1/1161/2/WS2812D-F5-15MA-C1.html
+$ENDCMP
+#
+$CMP WS2812D-F8
+D RGB LED WS2812 8mm
+F https://datasheet.lcsc.com/szlcsc/Worldsemi-WS2812D-F8_C139126.pdf
 $ENDCMP
 #
 #End Doc Library
