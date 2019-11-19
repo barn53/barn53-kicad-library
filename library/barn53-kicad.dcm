@@ -6,6 +6,12 @@ K ADXL345BCCZ-RL7CT-ND
 F https://www.analog.com/media/en/technical-documentation/data-sheets/ADXL345.pdf
 $ENDCMP
 #
+$CMP BAT60A
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
 $CMP ESP-12E
 D 802.11 b/g/n Wi-Fi Module
 K 802.11 Wi-Fi
@@ -18,8 +24,36 @@ K 802.11 Wi-Fi
 F http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
 $ENDCMP
 #
+$CMP L
+D Inductor European Symbol
+$ENDCMP
+#
 $CMP MicrowaveRadarSensorRCWL-0516
 F https://www.epitran.it/ebayDrive/datasheet/19.pdf
+$ENDCMP
+#
+$CMP NSR0320
+D Schottky diode
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP PMF370XN
+D N-channel TrenchMOS extremely low level FET
+K NXP Semiconductors
+F https://assets.nexperia.com/documents/data-sheet/PMG370XN.pdf
+$ENDCMP
+#
+$CMP SI2301
+D P-Channel 20 V (D-S) MOSFET Si2301CDS
+K Vishay Siliconix
+F https://www.vishay.com/docs/70627/70627.pdf
+$ENDCMP
+#
+$CMP S8050_J3Y
+D 0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, SOT-23
+K S8050 NPN Low Voltage High Current Transistor
+F https://datasheet.lcsc.com/szlcsc/1910111742_MDD-Microdiode-Electronics-S8050-J3Y_C364312.pdf
 $ENDCMP
 #
 $CMP SIA527DJ-T1-GE3
@@ -31,13 +65,17 @@ $ENDCMP
 $CMP USB_B_Micro
 D USB Micro Type B connector
 K connector USB micro
-F ~
+F https://datasheet.lcsc.com/szlcsc/1811131833_Boom-Precision-Elec-C21377_C21377.pdf
 $ENDCMP
 #
-$CMP USB_B_Mini
-D USB Mini Type B connector
-K connector USB mini
-F ~
+$CMP VGaga
+D Power symbol creates a global label with name "VOut"
+K power-flag
+$ENDCMP
+#
+$CMP VOut
+D Power symbol creates a global label with name "VOut"
+K power-flag
 $ENDCMP
 #
 $CMP WS2812D-F5
