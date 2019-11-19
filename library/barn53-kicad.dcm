@@ -44,16 +44,16 @@ K NXP Semiconductors
 F https://assets.nexperia.com/documents/data-sheet/PMG370XN.pdf
 $ENDCMP
 #
-$CMP SI2301
-D P-Channel 20 V (D-S) MOSFET Si2301CDS
-K Vishay Siliconix
-F https://www.vishay.com/docs/70627/70627.pdf
-$ENDCMP
-#
 $CMP S8050_J3Y
 D 0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, SOT-23
 K S8050 NPN Low Voltage High Current Transistor
 F https://datasheet.lcsc.com/szlcsc/1910111742_MDD-Microdiode-Electronics-S8050-J3Y_C364312.pdf
+$ENDCMP
+#
+$CMP SI2301
+D P-Channel 20 V (D-S) MOSFET Si2301CDS
+K Vishay Siliconix
+F https://www.vishay.com/docs/70627/70627.pdf
 $ENDCMP
 #
 $CMP SIA527DJ-T1-GE3
