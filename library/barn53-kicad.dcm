@@ -24,11 +24,6 @@ K 802.11 Wi-Fi
 F http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf
 $ENDCMP
 #
-$CMP ESP8285
-D ESP8285 highly integrated Wi-Fi SoC
-F https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf
-$ENDCMP
-#
 $CMP ESP_8285
 D ESP 8285 highly integrated Wi-Fi SoC
 F https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf
