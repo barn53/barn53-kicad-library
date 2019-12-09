@@ -12,6 +12,12 @@ K diode Schottky
 F ~
 $ENDCMP
 #
+$CMP BL8565
+D 500mA High PSRR, Low Dropout Voltage Linear Regulator Marking "AD33B" 1-GND, 2-In, 3-Out
+K REGULATOR LDO 3.3V SOT-89-3
+F https://datasheet.lcsc.com/szlcsc/1810172021_BL-Shanghai-Belling-BL8565CC3BTR33_C51826.pdf
+$ENDCMP
+#
 $CMP ESP-12E
 D 802.11 b/g/n Wi-Fi Module
 K 802.11 Wi-Fi
@@ -41,6 +47,14 @@ $CMP NSR0320
 D Schottky diode
 K diode Schottky
 F ~
+$ENDCMP
+#
+$CMP PCB_Antenna_2.4GHz_1.6mm
+D PCB Antenna 2.4GHz MIFA Layout for 1.6mm FR4 PCB
+$ENDCMP
+#
+$CMP PCB_Antenna_2.4GHz_1mm
+D PCB Antenna 2.4GHz MIFA Layout for 1mm FR4 PCB
 $ENDCMP
 #
 $CMP PMF370XN

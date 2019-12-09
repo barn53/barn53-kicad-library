@@ -1,10 +1,17 @@
-(module MicroUSB_1 (layer F.Cu) (tedit 5DBFD55A)
+(module MicroUSB_1 (layer F.Cu) (tedit 5DED69AA)
+  (descr "Micro USB Connector")
   (attr smd)
   (fp_text reference REF** (at -1.75 -1.45) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value MicroUSB_1 (at -9.8 1.95) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user https://lcsc.com/product-detail/USB-Connectors_BOOMELE-Boom-Precision-Elec-C21377_C21377.html (at 0 18.9992) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
+  (fp_text user https://datasheet.lcsc.com/szlcsc/1811131820_Jing-Extension-of-the-Electronic-Co-C10418_C10418.pdf (at 0.1778 14.1732) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (fp_line (start -4.9 4.1) (end 4.9 4.1) (layer Dwgs.User) (width 0.05))
   (fp_line (start -3.7 4.8) (end 3.7 4.8) (layer Dwgs.User) (width 0.05))
