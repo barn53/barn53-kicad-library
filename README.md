@@ -21,3 +21,5 @@ Define the following path in the KiCad path configuration:
 
 https://layouteditor.com/#download
 
+- Look for file ```freeRouting.jar``` in the bundle
+  start it with: ```> java -jar freeRouting.jar```
