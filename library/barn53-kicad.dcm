@@ -97,16 +97,6 @@ K connector USB micro
 F https://datasheet.lcsc.com/szlcsc/1811131833_Boom-Precision-Elec-C21377_C21377.pdf
 $ENDCMP
 #
-$CMP VGaga
-D Power symbol creates a global label with name "VOut"
-K power-flag
-$ENDCMP
-#
-$CMP VOut
-D Power symbol creates a global label with name "VOut"
-K power-flag
-$ENDCMP
-#
 $CMP WS2812D-F5
 D RGB LED WS2812 5mm
 F https://html.alldatasheet.com/html-pdf/1134547/WORLDSEMI/WS2812D-F5-15MA-C1/1161/2/WS2812D-F5-15MA-C1.html
