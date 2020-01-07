@@ -49,18 +49,28 @@ K diode Schottky
 F ~
 $ENDCMP
 #
+$CMP PCA9554
+D 8-bit I2C-bus and SMBus I/O port with interrupt
+F https://datasheet.lcsc.com/szlcsc/PCA9554APW_C86803.pdf
+$ENDCMP
+#
 $CMP PCB_Antenna_2.4GHz_1.6mm
 D PCB Antenna 2.4GHz MIFA Layout for 1.6mm FR4 PCB
 $ENDCMP
 #
 $CMP PCB_Antenna_2.4GHz_1mm
 D PCB Antenna 2.4GHz MIFA Layout for 1mm FR4 PCB
+F https://www.cypress.com/file/136236/download
 $ENDCMP
 #
 $CMP PMF370XN
 D N-channel TrenchMOS extremely low level FET
 K NXP Semiconductors
 F https://assets.nexperia.com/documents/data-sheet/PMG370XN.pdf
+$ENDCMP
+#
+$CMP Resistor_Array_4x
+D Resistor Array
 $ENDCMP
 #
 $CMP S8050_J3Y
