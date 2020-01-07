@@ -17,3 +17,10 @@ Define the following path in the KiCad path configuration:
 
     ```${BARN53_KICAD_DIR}/footprints/barn53-kicad.pretty```
 
+# KiCad External AutoRouter FreeRouting
+
+https://layouteditor.com/#download
+
+- Look for file ```freeRouting.jar``` in the bundle
+
+  start it with: ```> java -jar freeRouting.jar```
