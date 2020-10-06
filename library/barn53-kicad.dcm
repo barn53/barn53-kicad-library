@@ -69,6 +69,10 @@ K NXP Semiconductors
 F https://assets.nexperia.com/documents/data-sheet/PMG370XN.pdf
 $ENDCMP
 #
+$CMP PogoPin
+F https://www.amazon.de/gp/product/B07M8VXNHR
+$ENDCMP
+#
 $CMP Resistor_Array_4x
 D Resistor Array
 $ENDCMP
