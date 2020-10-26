@@ -35,6 +35,14 @@ D ESP 8285 highly integrated Wi-Fi SoC
 F https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf
 $ENDCMP
 #
+$CMP IRLML6244
+F https://www.infineon.com/dgdl/irlml6244pbf.pdf?fileId=5546d462533600a4015356686fed261f
+$ENDCMP
+#
+$CMP IRLML6402
+F https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c
+$ENDCMP
+#
 $CMP L
 D Inductor European Symbol
 $ENDCMP
@@ -93,6 +101,10 @@ $CMP SIA527DJ-T1-GE3
 D SiA527DJ N- and P-Channel 12-V (D-S) MOSFET Vishay
 K TrenchFET Power MOSFET Vishay
 F https://datasheet.lcsc.com/szlcsc/1806021242_Vishay-Intertech-SIA527DJ-T1-GE3_C222486.pdf
+$ENDCMP
+#
+$CMP SPICE_VCSWITCH
+D Voltage controlled switch
 $ENDCMP
 #
 $CMP USB_B_Micro
