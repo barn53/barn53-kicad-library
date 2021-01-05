@@ -24,3 +24,8 @@ https://layouteditor.com/#download
 - Look for file ```freeRouting.jar``` in the bundle
 
   start it with: ```> java -jar freeRouting.jar```
+
+
+# Also add the digikey library
+
+https://github.com/Digi-Key/digikey-kicad-library
