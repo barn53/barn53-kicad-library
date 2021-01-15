@@ -1,4 +1,4 @@
-update=2021 January 15, Friday 10:01:30
+update=2021 January 15, Friday 09:59:32
 version=1
 last_client=kicad
 [general]
@@ -16,17 +16,17 @@ LibDir=
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.127
-MinViaDiameter=0.6
-MinViaDrill=0.3
-MinMicroViaDiameter=0.6
-MinMicroViaDrill=0.3
+MinViaDiameter=0.45
+MinViaDrill=0.2
+MinMicroViaDiameter=0.45
+MinMicroViaDrill=0.2
 MinHoleToHole=0.5
 TrackWidth1=0.1524
 TrackWidth2=0.127
@@ -35,10 +35,12 @@ TrackWidth4=0.3048
 TrackWidth5=0.381
 ViaDiameter1=0.6
 ViaDrill1=0.3
-ViaDiameter2=0.6
-ViaDrill2=0.3
-ViaDiameter3=0.762
-ViaDrill3=0.381
+ViaDiameter2=0.45
+ViaDrill2=0.2
+ViaDiameter3=0.6
+ViaDrill3=0.3
+ViaDiameter4=0.762
+ViaDrill4=0.381
 dPairWidth1=0.1524
 dPairGap1=0.127
 dPairViaGap1=0.25
@@ -73,11 +75,11 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -245,6 +247,17 @@ dPairWidth=0.1524
 dPairGap=0.127
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=Minimal
+Clearance=0.127
+TrackWidth=0.127
+ViaDiameter=0.45
+ViaDrill=0.2
+uViaDiameter=0.45
+uViaDrill=0.2
+dPairWidth=0.127
+dPairGap=0.127
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=Power
 Clearance=0.254
 TrackWidth=0.3048
