@@ -35,16 +35,31 @@ D ESP 8285 highly integrated Wi-Fi SoC
 F https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf
 $ENDCMP
 #
+$CMP IPSDisplay_240x240
+F http://www.lcdwiki.com/res/MSP1308/TFT1301-SPEC.pdf
+$ENDCMP
+#
+$CMP IPSDisplay_80x160
+F http://www.lcdwiki.com/res/MSP0961/TFT0961-SPEC.pdf
+$ENDCMP
+#
 $CMP IRLML6244
+D N-Channel 20V 6.3A 1.1V @ 10uA 21mΩ @ 6.3A,4.5V 1.3W SOT-23(SOT-23-3) MOSFET RoHS
 F https://www.infineon.com/dgdl/irlml6244pbf.pdf?fileId=5546d462533600a4015356686fed261f
 $ENDCMP
 #
 $CMP IRLML6402
+D P-Channel -20V 3.7A 1.2V @ 250uA 65mΩ @ 3.7A,4.5V 1.3W SOT-23(SOT-23-3) MOSFET RoHS
 F https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c
 $ENDCMP
 #
 $CMP L
 D Inductor European Symbol
+$ENDCMP
+#
+$CMP MAX16054
+D On/Off Controller with Debounce and ±15kV ESD Protection±15kV ESD Protection
+F https://datasheet.lcsc.com/szlcsc/Maxim-Integrated-MAX16054AZT-T_C79401.pdf
 $ENDCMP
 #
 $CMP MicrowaveRadarSensorRCWL-0516
@@ -54,7 +69,7 @@ $ENDCMP
 $CMP NSR0320
 D Schottky diode
 K diode Schottky
-F ~
+F https://datasheet.lcsc.com/szlcsc/ON-Semicon-ON-NSR0320MW2T1G_C48192.pdf
 $ENDCMP
 #
 $CMP PCA9554
@@ -88,7 +103,7 @@ $ENDCMP
 $CMP S8050_J3Y
 D 0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, SOT-23
 K S8050 NPN Low Voltage High Current Transistor
-F https://datasheet.lcsc.com/szlcsc/1910111742_MDD-Microdiode-Electronics-S8050-J3Y_C364312.pdf
+F Changjiang-Electronics-Tech-CJ-S8050_C2146.pdf
 $ENDCMP
 #
 $CMP SI2301
@@ -110,7 +125,7 @@ $ENDCMP
 $CMP USB_B_Micro
 D USB Micro Type B connector
 K connector USB micro
-F https://datasheet.lcsc.com/szlcsc/1811131833_Boom-Precision-Elec-C21377_C21377.pdf
+F https://datasheet.lcsc.com/szlcsc/1811131820_Jing-Extension-of-the-Electronic-Co-C10418_C10418.pdf
 $ENDCMP
 #
 $CMP WS2812B-2020

@@ -1,6 +1,7 @@
 # barn53 kicad library
-Contains self-constructed symbols, footprints and models
+## Contains self-constructed symbols, footprints and models
 
+----
 # KiCad Path
 
 Define the following path in the KiCad path configuration:
@@ -16,6 +17,7 @@ Define the following path in the KiCad path configuration:
 - Footprint Library
 
     ```${BARN53_KICAD_DIR}/footprints/barn53-kicad.pretty```
+-----
 
 # KiCad External AutoRouter FreeRouting
 
@@ -25,7 +27,26 @@ https://layouteditor.com/#download
 
   start it with: ```> java -jar freeRouting.jar```
 
-
+-----
 # Also add the digikey library
 
 https://github.com/Digi-Key/digikey-kicad-library
+
+
+------
+
+# JLCPCB SMT Assembly
+
+## Generate BOM with
+`plugins/bom_jlcpcb.xsl`
+
+## Position File
+
+https://support.jlcpcb.com/article/84-how-to-generate-the-bom-and-centroid-file-from-kicad
+
+Position file column names  must be renamed as follows:
+
+Designator|Val|Package|Mid X|Mid Y|Rotation|Layer
+---|---|---|---|---|---|---
+
+
