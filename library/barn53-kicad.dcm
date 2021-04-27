@@ -133,6 +133,11 @@ D RGB LED WS2812 2x2mm
 F https://www.alldatasheetde.com/datasheet-pdf/pdf/1134522/WORLDSEMI/WS2812B-2020.html
 $ENDCMP
 #
+$CMP WS2812C-2020
+D RGB LED WS2812 2x2mm
+F https://datasheet.lcsc.com/szlcsc/2012110135_Worldsemi-WS2812C-2020_C965556.pdf
+$ENDCMP
+#
 $CMP WS2812D-F5
 D RGB LED WS2812 5mm
 F https://html.alldatasheet.com/html-pdf/1134547/WORLDSEMI/WS2812D-F5-15MA-C1/1161/2/WS2812D-F5-15MA-C1.html
