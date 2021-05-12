@@ -25,7 +25,7 @@
     Comment,Designator,Footprint,LCSC
 
     The command line is
-        xsltproc -o "%O_jlcpcb.csv" "full_path/bom2grouped_csv_jlcpcb.xsl" "%I"
+        xsltproc -o "%O_bom_jlcpcb.csv" "full_path/bom2grouped_csv_jlcpcb.xsl" "%I"
 -->
 
 
