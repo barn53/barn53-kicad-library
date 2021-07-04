@@ -35,6 +35,11 @@ D ESP 8285 highly integrated Wi-Fi SoC
 F https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datasheet_en.pdf
 $ENDCMP
 #
+$CMP IN12-B
+D IN12-A IN12-B NIXIE Tube
+K NIXIE Tube
+$ENDCMP
+#
 $CMP IPSDisplay_240x240
 F http://www.lcdwiki.com/res/MSP1308/TFT1301-SPEC.pdf
 $ENDCMP
