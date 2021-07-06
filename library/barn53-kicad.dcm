@@ -36,7 +36,7 @@ F https://www.espressif.com/sites/default/files/documentation/0a-esp8285_datashe
 $ENDCMP
 #
 $CMP IN12-B
-D IN12-A IN12-B NIXIE Tube
+D IN12-A IN12-B ИН-12Б NIXIE Tube
 K NIXIE Tube
 $ENDCMP
 #
