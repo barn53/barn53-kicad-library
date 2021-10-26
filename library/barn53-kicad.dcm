@@ -153,4 +153,9 @@ D RGB LED WS2812 8mm
 F https://datasheet.lcsc.com/szlcsc/Worldsemi-WS2812D-F8_C139126.pdf
 $ENDCMP
 #
+$CMP Z5900M
+D Z5900M NIXIE Tube
+K NIXIE Tube
+$ENDCMP
+#
 #End Doc Library
