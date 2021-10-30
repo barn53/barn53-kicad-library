@@ -44,6 +44,10 @@ $CMP IPSDisplay_240x240
 F http://www.lcdwiki.com/res/MSP1308/TFT1301-SPEC.pdf
 $ENDCMP
 #
+$CMP IPSDisplay_240x320
+F http://www.lcdwiki.com/res/MSP1308/TFT1301-SPEC.pdf
+$ENDCMP
+#
 $CMP IPSDisplay_80x160
 F http://www.lcdwiki.com/res/MSP0961/TFT0961-SPEC.pdf
 $ENDCMP
