@@ -21,11 +21,8 @@ Define the following path in the KiCad path configuration:
 
 # KiCad External AutoRouter FreeRouting
 
-https://layouteditor.com/#download
+https://github.com/freerouting/freerouting
 
-- Look for file ```freeRouting.jar``` in the bundle
-
-  start it with: ```> java -jar freeRouting.jar```
 
 -----
 # Also add the digikey library
