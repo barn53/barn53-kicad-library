@@ -75,6 +75,11 @@ $CMP MicrowaveRadarSensorRCWL-0516
 F https://www.epitran.it/ebayDrive/datasheet/19.pdf
 $ENDCMP
 #
+$CMP NCH8200HV
+D Nixie DC-DC High Voltage Boost Power Converter
+F https://omnixie.com/products/nch8200hv-nixie-hv-power-module
+$ENDCMP
+#
 $CMP NSR0320
 D Schottky diode
 K diode Schottky
